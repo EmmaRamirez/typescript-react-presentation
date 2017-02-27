@@ -21,11 +21,8 @@
   },
   "homepage": "https://github.com/EmmaRamirez/typescript-react-presentation#readme",
   "dependencies": {
-    "awesome-typescript-loader": "^3.0.8",
-    "jest": "^19.0.2",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
-    "ts-jest": "^19.0.0",
     "tslint-loader": "^3.4.2",
     "webpack": "^2.2.1"
   },
@@ -45,7 +42,11 @@
     "testRegex": "/test/.*\\.(ts|tsx|js)$"
   },
   "devDependencies": {
+    "awesome-typescript-loader": "^3.0.8",
+    "jest": "^19.0.2",
+    "ts-jest": "^19.0.0",
     "tslint": "^4.4.2",
-    "tslint-loader": "^3.4.2"
+    "tslint-loader": "^3.4.2",
+    "webpack": "^2.2.1"
   }
 }
