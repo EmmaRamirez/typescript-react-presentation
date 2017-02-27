@@ -21,7 +21,9 @@
   },
   "homepage": "https://github.com/EmmaRamirez/typescript-react-presentation#readme",
   "dependencies": {
+    "cheerio": "^0.22.0",
     "react": "^15.4.2",
+    "react-addons-test-utils": "^15.4.2",
     "react-dom": "^15.4.2",
     "tslint-loader": "^3.4.2",
     "webpack": "^2.2.1"
@@ -32,6 +34,7 @@
       "tsx",
       "js"
     ],
+    "setupTestFrameworkScriptFile": "./node_modules/jest-enzyme/lib/index.js",
     "transform": {
       "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
     },
@@ -43,7 +46,9 @@
   },
   "devDependencies": {
     "awesome-typescript-loader": "^3.0.8",
+    "enzyme": "^2.7.1",
     "jest": "^19.0.2",
+    "jest-enzyme": "^2.1.2",
     "ts-jest": "^19.0.0",
     "tslint": "^4.4.2",
     "tslint-loader": "^3.4.2",
