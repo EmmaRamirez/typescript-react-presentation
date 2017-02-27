@@ -14,7 +14,8 @@
       "node_modules",
       "typings",
       "dist",
-      "coverage"
+      "coverage",
+      "server.ts"
     ],
     "compileOnSave": false
 }

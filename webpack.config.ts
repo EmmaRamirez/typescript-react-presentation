@@ -5,8 +5,9 @@ const config = {
   entry: './src/index.tsx',
   devtool: 'source-map',
   output: {
-    path: 'dist',
+    path: path.join(__dirname, 'dist'),
     filename: 'bundle.js',
+    publicPath: '/dist/'
   },
   module: {
     rules: [
@@ -24,7 +25,7 @@ const config = {
   },
   resolve: {
     extensions: ['.ts', '.js', '.tsx', '.jsx']
-  }
+  },
 };
 
 module.exports = config;

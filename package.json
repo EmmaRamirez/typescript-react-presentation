@@ -4,7 +4,10 @@
   "description": "A presentation on Typescript + React (and why)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "test": "jest --verbose --coverage",
+    "serve": "ts-node server.ts",
+    "deploy": "surge -p ./dist -d typescript-react.surge.sh"
   },
   "repository": {
     "type": "git",
@@ -25,5 +28,24 @@
     "ts-jest": "^19.0.0",
     "tslint-loader": "^3.4.2",
     "webpack": "^2.2.1"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "moduleNameMapper": {
+      "^.+\\.(css|styl)$": "<rootDir>stylus.config.js",
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js"
+    },
+    "testRegex": "/test/.*\\.(ts|tsx|js)$"
+  },
+  "devDependencies": {
+    "tslint": "^4.4.2",
+    "tslint-loader": "^3.4.2"
   }
 }
