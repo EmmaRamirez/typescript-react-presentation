@@ -7,7 +7,7 @@
     "build": "webpack",
     "test": "jest --verbose --coverage",
     "serve": "ts-node server.ts",
-    "deploy": "surge -p ./dist -d typescript-react.surge.sh"
+    "deploy": "npm run build && surge -p ./dist -d typescript-react.surge.sh"
   },
   "repository": {
     "type": "git",
