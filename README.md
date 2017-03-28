@@ -1,41 +1,12 @@
 # typescript-react-presentation
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/EmmaRamirez/typescript-react-presentation.svg)](https://greenkeeper.io/)
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Build Status](https://travis-ci.org/EmmaRamirez/typescript-react-presentation.svg?branch=master)](https://travis-ci.org/EmmaRamirez/typescript-react-presentation)
 
+# Hi!
+If you came from the talk today, I apologize because I haven't uploaded the finished version yet! That being said, thank you for coming to my talk and I hope it was entertaining & educational!
 
-A presentation on why Typescript + React = :)
-
-# Typescript + React (and maybe other things)
-- Our goal is to give some real-world Typescript examples
-- We're using React as the main example for framework, but anything could work here
-- Yes, even jQuery
-- Yes, even Prototype
-
-## Why Typescript?
-- ES6, with types.
-- Helps you write large applications in Javascript
-- Gives you clearer documentation and fewer bugs
-- Allows for static analysis
-
-## Step 1: Convert your project to Typescript
-
-
-## Type Casting
-
-## Using Types
-
-## Intersection & Union Types
-
-## Leveraging Generics
-- Generics allow you to have a "fill-in" for a type
-- `Component<Props, State>` lets us know what props and state we're using
-- *Use actions as an example*
-
-## Index & Mapped Types
-
-## Integrating Existing Libraries
-
-## Writing your own definitions
+Twitter: [@EmmaGRamirez](https://twitter.com/EmmaGRamirez)
+Keybase: [@EmmaRamirez](https://keybase.io/emmaramirez)
+npm: [emmaramirez](https://www.npmjs.com/~emmaramirez)
