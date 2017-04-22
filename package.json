@@ -52,7 +52,7 @@
     "jest-enzyme": "^3.0.0",
     "ts-jest": "^19.0.0",
     "tslint": "^5.0.0",
-    "tslint-loader": "^3.4.2",
+    "tslint-loader": "^3.5.3",
     "webpack": "^2.2.1"
   }
 }
