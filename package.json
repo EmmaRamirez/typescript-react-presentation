@@ -47,7 +47,7 @@
   },
   "devDependencies": {
     "awesome-typescript-loader": "^3.0.8",
-    "enzyme": "^2.7.1",
+    "enzyme": "^2.9.1",
     "jest": "^19.0.2",
     "jest-enzyme": "^3.0.0",
     "ts-jest": "^19.0.13",
