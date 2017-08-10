@@ -27,7 +27,7 @@
     "react-dom": "^15.4.2",
     "tslint-loader": "^3.4.2",
     "typescript": "^2.2.1",
-    "webpack": "^3.3.0"
+    "webpack": "^3.5.3"
   },
   "jest": {
     "moduleFileExtensions": [
