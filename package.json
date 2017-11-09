@@ -22,7 +22,7 @@
   "homepage": "https://github.com/EmmaRamirez/typescript-react-presentation#readme",
   "dependencies": {
     "cheerio": "^0.22.0",
-    "react": "^15.4.2",
+    "react": "^16.1.0",
     "react-addons-test-utils": "^15.4.2",
     "react-dom": "^15.4.2",
     "tslint-loader": "^3.4.2",
