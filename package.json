@@ -24,7 +24,7 @@
     "cheerio": "^0.22.0",
     "react": "^15.4.2",
     "react-addons-test-utils": "^15.4.2",
-    "react-dom": "^15.4.2",
+    "react-dom": "^16.2.0",
     "tslint-loader": "^3.4.2",
     "typescript": "^2.2.1",
     "webpack": "^3.3.0"
